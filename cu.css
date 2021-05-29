@@ -2,24 +2,17 @@
     margin: 0;
 }
 
-
 body {
     background-color: cornsilk;
 }
 
-.center{
-    text-align: center;
-}
-     
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+img {
+    margin-top: 1%;
 }
 
 main {
     margin: 5%;
 }
-
 nav li{
     list-style: none;
     display: inline-block;
@@ -46,18 +39,12 @@ a:active {
     text-decoration: blanchedalmond;
 }
 
-
-.formulär{
-text-align: center;
-font-size:large;
+.ml{
+    margin-left: 5%;
 }
 
-
-.mt{
-    margin-top: 1%;
-}
-
-.colorbye{
-    background-color:darkgray
+.me{
+    margin-top: 2%;
+    margin-left: 5%;
 }
 

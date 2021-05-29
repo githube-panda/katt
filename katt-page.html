@@ -5,18 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frågeformulär</title>
     <link rel="stylesheet" href="katt-page.css">
 </head>
 
 <body>
     <h1 class="center">Detta är ett frågeformulär om dig och din erfarenhet av katter</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Hem</a>
+            </li>
+            <li>
+                <a href="contact-us.html">Kontakta oss</a>
+            </li>
+        </ul>
+    </nav>
     <div class="formulär">
 
         <form>
-            <div>
-                <label for="gender">Vilket kön tillhör du?</label>
-            </div>
+            <p Class="mt"> Vilket kön tillhör du?</p>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Man</label>
             <input type="radio" name="gender" id="female" value="female">
@@ -24,14 +32,10 @@
             <input type="radio" name="other" id="other" value="other">
             <label for="other">Annat</label>
 
-            <div>
-                <label for="age">Hur gammal är du?</label>
-            </div>
+            <p class="mt">Hur gammal är du?</p>
             <input type="" name="age" id="age">
 
-            <div>
-                <label for="likecats">Gillar du katter?</label>
-            </div>
+            <p class="mt">Gillar du katter?</p>
             <input type="radio" name="likecats" id="yes" value="yes">
             <label for="yes">Ja</label>
             <input type="radio" name="likecats" id="no" value="no">
@@ -39,18 +43,17 @@
             <input type="radio" name="likecats" id="yes/no" value="yes/no">
             <label for="yes/no">Tycker inte ja eller nej</label>
 
-            <div>
-                <label for="havecats">Har du några katter?</label>
-            </div>
+            <p class="mt">Har du några katter?</p>
             <input type="radio" name="havecats" id="yes" value="yes">
             <label for="yes">Ja</label>
             <input type="radio" name="havecats" id="no" value="no">
             <label for="no">Nej</label>
 
-            <div>
-                <label for="havecats">Om svaret var "Ja" på tidigare fråga, hur många katter?</label>
-            </div>
+            <p class="mt">Om svaret var "Ja" på tidigare fråga, hur många katter?</p>
             <input type="" name="havecats" id="yes">
+            <input type="submit" value="Submit">
+            <br><br>
+            <p class="colorbye">Tack för att du tog dig tiden att svara!</p>
 
         </form>
     </div>

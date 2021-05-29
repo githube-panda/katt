@@ -10,28 +10,48 @@
 </head>
 
 <body>
-    <h1>Detta är ett frågeformulär om dig och din erfarenhet av katter</h1>
+    <h1 class="center">Detta är ett frågeformulär om dig och din erfarenhet av katter</h1>
     <div class="formulär">
+
         <form>
-            <p>Vilket kön tillhör du?</p>
+            <div>
+                <label for="gender">Vilket kön tillhör du?</label>
+            </div>
             <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Man</label><br>
+            <label for="male">Man</label>
             <input type="radio" name="gender" id="female" value="female">
-            <label for="female">Kvinna</label><br>
+            <label for="female">Kvinna</label>
             <input type="radio" name="other" id="other" value="other">
             <label for="other">Annat</label>
-            <br><br><br>
 
-            <label for="age">Hur gammal är du?</label><br>
+            <div>
+                <label for="age">Hur gammal är du?</label>
+            </div>
             <input type="" name="age" id="age">
-            <br><br>
-            <p>Gillar du katter?</p>
+
+            <div>
+                <label for="likecats">Gillar du katter?</label>
+            </div>
             <input type="radio" name="likecats" id="yes" value="yes">
-            <label for="yes">Ja</label><br>
+            <label for="yes">Ja</label>
             <input type="radio" name="likecats" id="no" value="no">
-            <label for="no">Nej</label><br>
+            <label for="no">Nej</label>
             <input type="radio" name="likecats" id="yes/no" value="yes/no">
-            <label for="yes/no">Tycker inte ja eller nej</label><br>
+            <label for="yes/no">Tycker inte ja eller nej</label>
+
+            <div>
+                <label for="havecats">Har du några katter?</label>
+            </div>
+            <input type="radio" name="havecats" id="yes" value="yes">
+            <label for="yes">Ja</label>
+            <input type="radio" name="havecats" id="no" value="no">
+            <label for="no">Nej</label>
+
+            <div>
+                <label for="havecats">Om svaret var "Ja" på tidigare fråga, hur många katter?</label>
+            </div>
+            <input type="" name="havecats" id="yes">
+
         </form>
     </div>
 </body>

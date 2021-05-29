@@ -3,8 +3,10 @@ body {
     background-color: cornsilk;
 }
 
-main {
-    margin: 5%;
+
+
+.center{
+    text-align: center;
 }
      
 p {

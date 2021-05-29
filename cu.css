@@ -55,3 +55,14 @@ a:active {
 .ml-5{
     margin-left: 5%;
 }
+
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+ button{
+   display: block;
+ }
